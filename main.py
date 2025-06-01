@@ -28,5 +28,5 @@ while guesses > 0:
         guesses -= 1
 
     if guesses == 0:
-        print("You ran out of tries. Good luck next time !")
+        print(f"You ran out of tries. the correct number was {random_Num} Good luck next time !")
         break
